@@ -27,4 +27,11 @@ public class FizzBuzzTest {
 		  assertEquals("Buzz", FizzBuzz.getResult(20));
 	  }
 	  
+	  @Test
+	  public void shouldReturnFizzIfNumberBothDivisibleBy5And3() {
+		  assertEquals("Buzz", FizzBuzz.getResult(15));
+		  assertEquals("Buzz", FizzBuzz.getResult(30));
+		  assertEquals("Buzz", FizzBuzz.getResult(45));
+	  }
+	  
 }
