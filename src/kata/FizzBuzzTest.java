@@ -20,4 +20,11 @@ public class FizzBuzzTest {
 		  assertEquals("Fizz", FizzBuzz.getResult(9));
 	  }
 	  
+	  @Test
+	  public void shouldReturnFizzIfNumberDivisibleBy5() {
+		  assertEquals("Buzz", FizzBuzz.getResult(5));
+		  assertEquals("Buzz", FizzBuzz.getResult(10));
+		  assertEquals("Buzz", FizzBuzz.getResult(20));
+	  }
+	  
 }
