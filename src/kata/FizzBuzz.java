@@ -2,9 +2,8 @@ package kata;
 
 public class FizzBuzz {
 
-	public static Object getResult(int i) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	  public static String getResult(int number) {
+	    return Integer.toString(number);
+	  }
 
 }
