@@ -21,17 +21,17 @@ public class FizzBuzzTest {
 	  }
 	  
 	  @Test
-	  public void shouldReturnFizzIfNumberDivisibleBy5() {
+	  public void shouldReturnBuzzIfNumberDivisibleBy5() {
 		  assertEquals("Buzz", FizzBuzz.getResult(5));
 		  assertEquals("Buzz", FizzBuzz.getResult(10));
 		  assertEquals("Buzz", FizzBuzz.getResult(20));
 	  }
 	  
 	  @Test
-	  public void shouldReturnFizzIfNumberBothDivisibleBy5And3() {
-		  assertEquals("Buzz", FizzBuzz.getResult(15));
-		  assertEquals("Buzz", FizzBuzz.getResult(30));
-		  assertEquals("Buzz", FizzBuzz.getResult(45));
+	  public void shouldReturnFizzBuzzIfNumberBothDivisibleBy5And3() {
+		  assertEquals("FizzBuzz", FizzBuzz.getResult(15));
+		  assertEquals("FizzBuzz", FizzBuzz.getResult(30));
+		  assertEquals("FizzBuzz", FizzBuzz.getResult(45));
 	  }
 	  
 }
