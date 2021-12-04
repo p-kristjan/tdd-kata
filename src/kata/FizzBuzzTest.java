@@ -19,4 +19,5 @@ public class FizzBuzzTest {
 		  assertEquals("Fizz", FizzBuzz.getResult(6));
 		  assertEquals("Fizz", FizzBuzz.getResult(9));
 	  }
+	  
 }
